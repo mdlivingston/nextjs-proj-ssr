@@ -5,10 +5,10 @@ export default function Pokemon()
 {
     const router = useRouter()
     debugger
-    const { pokemon } = router.query
+    const { pid } = router.query
     return (
         <div>
-            This is the pokemon page! {pokemon}
+            This is the pokemon page! {pid}
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import Pokemon from './pokemon/[pokemon]'
+import Pokemon from './pokemon/[pid]'
 
 export default function Home()
 {
