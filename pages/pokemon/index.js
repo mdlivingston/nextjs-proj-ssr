@@ -1,10 +1,13 @@
 import React from 'react'
+import withAuth from '../auth'
 
-export default function Pokemon()
+function Pokemon()
 {
     return (
         <div>
-            Test
+            Tests
         </div>
     )
 }
+
+export default withAuth(Pokemon)
